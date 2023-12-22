@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "437110800760",
+    "firebase_url": "https://store-data-realtime2-ab477-default-rtdb.firebaseio.com",
+    "project_id": "store-data-realtime2-ab477",
+    "storage_bucket": "store-data-realtime2-ab477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437110800760:android:2da5511cc5cbe2853d488d",
+        "android_client_info": {
+          "package_name": "com.example.animix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fJ4l3kOB1JTFz-yXHflpOrFUGkk9VLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

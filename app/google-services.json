@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423874525750",
+    "project_id": "signup-login-realtime-c6a63",
+    "storage_bucket": "signup-login-realtime-c6a63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423874525750:android:9687a9e9bb01e8d1cff697",
+        "android_client_info": {
+          "package_name": "com.example.animix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT3xyjacdmGZqAwow7vBEt31M1cTRIlJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

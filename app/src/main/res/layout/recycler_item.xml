@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/recImageURL"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:src="@drawable/baseline_drive_folder_upload_24"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/recTopic"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/recImageURL"
+            android:text="Title"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="#100F0F"
+            android:textColorHint="#0E0D0D"
+            android:textColorLink="#090707"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recLang"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/recTopic"
+            android:text="Genre"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="#100F0F"
+            android:textColorHint="#0E0D0D"
+            android:textColorLink="#090707"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recDesc"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/recTopic"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/recImageURL"
+            android:maxLines="0"
+            android:text="Episodes"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="#0B0A0A"
+            android:textColorHint="#070606"
+            android:textColorLink="#100E0E"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
